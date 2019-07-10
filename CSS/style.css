@@ -1,13 +1,10 @@
-.logo {
-    position: fixed;
-    top: 20%;
-    left: 40%;
-}
 .top ul li {
     display: inline-block;
 }
 .top {
     float: right;
+    position: relative;
+    z-index: 5;
 }
 .top ul li a {
     color: black;
@@ -22,10 +19,32 @@
     color: white;
 }
 #search-bar {
-    position: fixed;
-    left: 37%;
-    top: 35%;
+    position: absolute;
     width: 350px;
     height: 30px;
     border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+html,body {
+    height: 100%;
+    margin: 0;
+}
+.logo {
+    height: 92px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+.main {
+    position: relative;
+    height: 750px;
+
+}
+.search-bar {
+    position: relative;
+    height: 40px;
+    top: 40%;
 }
