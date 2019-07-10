@@ -48,3 +48,9 @@ html,body {
     height: 40px;
     top: 40%;
 }
+.buttons {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 45%;
+}
