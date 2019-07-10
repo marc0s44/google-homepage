@@ -6,11 +6,11 @@
     position: relative;
     z-index: 5;
 }
-.top ul li a {
+.top ul li a, .formal-stuff-right a {
     color: black;
     text-decoration: none;
 }
-.top ul li a:hover {
+.top ul li a:hover, .formal-stuff-right a:hover {
     text-decoration: underline;
 }
 #sign-in {
@@ -27,7 +27,6 @@
     transform: translate(-50%, -100%);
 }
 html,body {
-    height: 100%;
     margin: 0;
 }
 .logo {
@@ -40,7 +39,7 @@ html,body {
 }
 .main {
     position: relative;
-    height: 750px;
+    height: 700px;
 
 }
 .search-bar {
@@ -53,4 +52,30 @@ html,body {
     text-align: center;
     width: 100%;
     top: 45%;
+}
+table {
+    margin-left: 1em;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1px;
+    background-color: rgb(185, 185, 185);
+    height: 4.5em;
+}
+.formal-stuff-right {
+    float: right;
+}
+.formal-stuff-left {
+    display: inline-block;
+}
+.formal-stuff-left, .formal-stuff-right, .country {
+    padding: 0.5em;
+}
+.country {
+    border-bottom-style: solid;
+    border-width: 1px;
 }
